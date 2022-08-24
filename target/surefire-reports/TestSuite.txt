@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 29.934 s <<< FAILURE! - in TestSuite
+runner.TestNgTestRunner.runScenario["Search Experience for product search in both home and Offers page", "Optional[Search and Place the order for Products]"](1)  Time elapsed: 21.705 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [Brocolli] but found [null]
+
+runner.TestNgTestRunner.runScenario["Search Experience for product search in both home and Offers page", "Optional[Search and Place the order for Products]"](2)  Time elapsed: 22.081 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [Brocolli] but found [null]
+
